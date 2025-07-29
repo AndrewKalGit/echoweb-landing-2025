@@ -1,14 +1,12 @@
-import Image from 'next/image';
-
 const Services = () => {
 	return (
-		<section id='services' className='py-10'>
+		<section id='services' className='py-10 mb-10 bg-gray-50/25'>
 			<div className='container mx-auto px-4 xl:px-20'>
-				<h1 className='flex justify-center py-2 text-4xl font-semibold text-gray-900'>
+				<h1 className='flex justify-center py-2 text-4xl sm:text-5xl font-semibold text-gray-900'>
 					Services
 				</h1>
 				<p className='text-center text-2xl flex justify-center text-gray-800'>
-					We offer SEO, UX, and CRO services to appointment-based businesses.
+					How our building blocks work together to generate leads
 				</p>
 				<div className='mt-10 grid grid-cols-1 xl:grid-cols-2 justify-items-center gap-8'>
 					{[
@@ -29,7 +27,7 @@ const Services = () => {
 								</svg>
 							),
 							title: 'User Experience Design',
-							desc: 'Beautiful, intuitive design that guides visitors to take action.',
+							desc: 'Informative and engaging text, images, and layouts that guide visitors to take action.',
 						},
 						{
 							icon: (
@@ -47,7 +45,7 @@ const Services = () => {
 								</svg>
 							),
 							title: 'Search Visibility',
-							desc: 'Get found by more customers with proven SEO strategies.',
+							desc: 'We research what people are searching for and align your content to match their intent.',
 						},
 						{
 							icon: (
@@ -66,7 +64,7 @@ const Services = () => {
 								</svg>
 							),
 							title: 'Conversion Strategy',
-							desc: 'Turn more clicks into booked calls, signups, and real leads.',
+							desc: 'We developed 4+ lead generation tatics that work to convert visitors into leads.',
 						},
 						{
 							icon: (
@@ -90,12 +88,12 @@ const Services = () => {
 								</svg>
 							),
 							title: 'Ongoing Performance Optimization',
-							desc: 'Continuous testing, tuning, and updating to keep lead flow strong and cost-effective.',
+							desc: 'We continue to delpoy and optimize your funnel to ensure it is producing leads.',
 						},
 					].map((service) => (
 						<div
 							key={service.title}
-							className='flex flex-col items-center space-y-4 rounded-lg border bg-background p-6 shadow-sm transition-all hover:shadow-md min-w-full max-w-xs min-h-[200px]'>
+							className='flex flex-col items-center space-y-4 rounded-lg border bg-background p-6 shadow-md transition-all hover:shadow-xl min-w-full max-w-xs min-h-[200px]'>
 							{service.icon}
 							<h2 className='text-xl font-semibold text-gray-900 text-center'>
 								{service.title}
