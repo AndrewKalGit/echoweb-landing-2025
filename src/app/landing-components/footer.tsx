@@ -1,5 +1,7 @@
 import Image from 'next/image';
 import logo from '../../../public/logo.png';
+import linkedinLogo from '../../../public/linkedin.webp';
+import alignableLogo from '../../../public/alignable.png';
 
 const Footer = () => {
 	const year = new Date().getFullYear();
@@ -21,7 +23,22 @@ const Footer = () => {
 						<ul className='mt-8 flex gap-6'>
 							<li>
 								<a
-									href='https://www.instagram.com/echo.web.design.llc/'
+									href='https://www.linkedin.com/company/echowebdesignllc/'
+									rel='noreferrer'
+									target='_blank'
+									className='text-gray-700 transition hover:opacity-75'>
+									<span className='sr-only'>Linkedin</span>
+
+									<Image
+										src={linkedinLogo}
+										alt='Linkedin Logo'
+										className='size-6'
+									/>
+								</a>
+							</li>
+							<li>
+								<a
+									href='https://www.facebook.com/profile.php?id=61575392280295'
 									rel='noreferrer'
 									target='_blank'
 									className='text-gray-700 transition hover:opacity-75'>
@@ -43,7 +60,7 @@ const Footer = () => {
 
 							<li>
 								<a
-									href='https://www.facebook.com/profile.php?id=61575392280295'
+									href='https://www.instagram.com/echo.web.design.llc/'
 									rel='noreferrer'
 									target='_blank'
 									className='text-gray-700 transition hover:opacity-75'>
@@ -62,13 +79,34 @@ const Footer = () => {
 									</svg>
 								</a>
 							</li>
+							<li>
+								<a
+									href='https://www.alignable.com/edison-nj/echo-web-llc?user=14205068'
+									rel='noreferrer'
+									target='_blank'
+									className='text-gray-700 transition hover:opacity-75'>
+									<span className='sr-only'>Alignable</span>
+									<Image
+										src={alignableLogo}
+										alt='Alignable Logo'
+										className='size-6'
+									/>
+								</a>
+							</li>
 						</ul>
 					</div>
 				</div>
-
-				<p className='text-xs text-gray-500'>
-					&copy; {year}. Echo Web, LLC. All rights reserved.
-				</p>
+				<div className='mt-8 flex flex-col items-center gap-12 sm:flex-row'>
+					<p className='text-xs text-gray-700'>
+						&copy; {year}. Echo Web, LLC. All rights reserved.
+					</p>
+					<p className='text-sm text-gray-600'>
+						<a href='/privacy'>privacy policy</a>
+					</p>
+					<p className='text-sm text-gray-600'>
+						<a href='/terms'>terms and conditions</a>
+					</p>
+				</div>
 			</div>
 		</footer>
 	);

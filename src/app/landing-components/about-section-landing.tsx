@@ -3,7 +3,9 @@ import Image from 'next/image';
 
 const Aboutsectionlanding = () => {
 	return (
-		<section className='bg-gradient-to-br bg-gray-50 via-white to-blue-50'>
+		<section
+			id='about'
+			className='bg-gradient-to-br bg-gray-50 via-white to-blue-50'>
 			<div className='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8'>
 				<div className='grid grid-cols-1 gap-4 md:grid-cols-2 md:items-center md:gap-8'>
 					<div>
@@ -12,7 +14,7 @@ const Aboutsectionlanding = () => {
 								About Echo Web, LLC
 							</h2>
 
-							<p className='mt-4 text-gray-700 text-2xl'>
+							<p className='pb-8 text-gray-700 text-xl'>
 								We are a web agency specializing in generating leads. We focus
 								on creating user-friendly websites that convert visitors into
 								leads.

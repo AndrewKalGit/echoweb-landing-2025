@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 
 const Header = () => {
@@ -60,7 +61,7 @@ const Header = () => {
 				<div className='mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8'>
 					<div className='flex h-16 items-center justify-between'>
 						<div className='flex-1 md:flex md:items-center md:gap-12'>
-							<a className='block text-gray-700' href=''>
+							<Link className='block text-gray-700' href='/'>
 								<span className='sr-only'>Home</span>
 								<Image
 									src='/logo.png'
@@ -69,7 +70,7 @@ const Header = () => {
 									height={500}
 									className='w-20'
 								/>
-							</a>
+							</Link>
 						</div>
 
 						<div className='md:flex md:items-center md:gap-12'>
@@ -78,28 +79,28 @@ const Header = () => {
 									<li>
 										<a
 											className='text-gray-700 transition hover:text-gray-700/75'
-											href='#'>
-											About
-										</a>
-									</li>
-									<li>
-										<a
-											className='text-gray-700 transition hover:text-gray-700/75'
-											href='#'>
+											href='#services'>
 											Services
 										</a>
 									</li>
 									<li>
 										<a
 											className='text-gray-700 transition hover:text-gray-700/75'
-											href='#'>
+											href='#about'>
+											About
+										</a>
+									</li>
+									<li>
+										<a
+											className='text-gray-700 transition hover:text-gray-700/75'
+											href='#case-studies'>
 											Case Studies
 										</a>
 									</li>
 									<li>
 										<a
 											className='text-gray-700 transition hover:text-gray-700/75'
-											href='#'>
+											href='#contact'>
 											Contact
 										</a>
 									</li>
@@ -110,7 +111,7 @@ const Header = () => {
 								<div className='sm:flex sm:gap-4'>
 									<a
 										className='rounded-sm hover:bg-blue-500/90 bg-blue-500 px-5 py-2.5 text-sm font-medium text-white shadow-sm'
-										href='#'>
+										href='#booking'>
 										Build My Funnel
 									</a>
 								</div>
@@ -147,28 +148,28 @@ const Header = () => {
 								<li>
 									<a
 										className='text-gray-700 transition hover:text-gray-700/75'
-										href='#'>
-										About
-									</a>
-								</li>
-								<li>
-									<a
-										className='text-gray-700 transition hover:text-gray-700/75'
-										href='#'>
+										href='#services'>
 										Services
 									</a>
 								</li>
 								<li>
 									<a
 										className='text-gray-700 transition hover:text-gray-700/75'
-										href='#'>
+										href='#about'>
+										About
+									</a>
+								</li>
+								<li>
+									<a
+										className='text-gray-700 transition hover:text-gray-700/75'
+										href='#case-studies'>
 										Case Studies
 									</a>
 								</li>
 								<li className='mb-4'>
 									<a
 										className='text-gray-700 transition hover:text-gray-700/75'
-										href='#'>
+										href='#contact'>
 										Contact
 									</a>
 								</li>
