@@ -37,6 +37,14 @@ export const metadata: Metadata = {
 		siteName: 'Echoweb Design',
 		type: 'website',
 		locale: 'en_US',
+		images: [
+			{
+				url: 'https://echoweb.design/bannerbg.webp',
+				width: 1200,
+				height: 630,
+				alt: 'Echo Web Preview',
+			},
+		],
 	},
 };
 
