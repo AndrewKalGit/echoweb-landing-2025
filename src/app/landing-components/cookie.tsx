@@ -51,6 +51,7 @@ const CookieBanner = () => {
 				<Link
 					href='/privacy'
 					className='text-blue-600 underline hover:text-blue-800 transition'>
+					{' '}
 					Privacy Policy
 				</Link>
 				.
