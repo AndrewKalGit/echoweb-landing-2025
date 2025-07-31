@@ -22,19 +22,6 @@ const CalendlyBooking = () => {
 		script.src = 'https://assets.calendly.com/assets/external/widget.js';
 		script.async = true;
 		document.body.appendChild(script);
-
-		window.onload = function () {
-			if (typeof window.Calendly !== 'undefined') {
-				// Floating badge
-				window.Calendly.initBadgeWidget({
-					url: 'https://calendly.com/contact-echoweb/book',
-					text: 'Schedule time with me',
-					color: '#0069ff',
-					textColor: '#ffffff',
-					branding: true,
-				});
-			}
-		};
 	}, []);
 
 	return (
