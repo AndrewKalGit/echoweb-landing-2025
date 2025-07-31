@@ -48,11 +48,11 @@ const CookieBanner = () => {
 		<div className='fixed bottom-4 left-4 right-4 sm:left-8 sm:right-8 z-50 bg-white border border-gray-300 rounded-lg shadow-md p-4 sm:p-6 text-xs sm:text-base flex flex-col sm:flex-row items-center justify-between gap-4'>
 			<p className='text-gray-700'>
 				We use cookies to improve your experience.
-				<Link
-					href='/privacy'
-					className='text-blue-600 underline hover:text-blue-800 transition'>
+				<Link href='/privacy'>
 					{' '}
-					Privacy Policy
+					<span className='text-blue-600 underline hover:text-blue-800 transition'>
+						Privacy Policy
+					</span>
 				</Link>
 				.
 			</p>
