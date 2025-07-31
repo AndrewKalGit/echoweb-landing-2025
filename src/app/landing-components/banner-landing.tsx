@@ -22,7 +22,7 @@ const Bannerlanding = () => {
 	}, []);
 
 	return (
-		<section className='bg-gradient-to-br from-gray-50 via-white to-blue-100 flex flex-col lg:flex-row items-center justify-center min-h-[75vh] px-4 py-20 sm:px-16 bg-gray-100 pt-30'>
+		<section className='bg-gradient-to-br from-gray-50 via-white to-blue-100 flex flex-col lg:flex-row items-center justify-center min-h-[75vh] px-4 py-20 sm:px-16 bg-gray-100 pt-20'>
 			{/* Left: CTA Content */}
 			<div className='min-w-[45vw] flex justify-center'>
 				<div className='text-center lg:text-left p-10 py-20'>
