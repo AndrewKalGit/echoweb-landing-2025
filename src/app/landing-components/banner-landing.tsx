@@ -38,7 +38,7 @@ const Bannerlanding = () => {
 					<h2 className='text-4xl font-bold text-gray-700 xl:text-6xl'>
 						Less Stress
 					</h2>
-					<p className='mt-4 text-pretty text-gray-700 text-sm/relaxed xl:text-2xl/relaxed'>
+					<p className='mt-4 text-pretty text-gray-700 text-base/relaxed xl:text-2xl/relaxed'>
 						We Engineer Lead Systems that Generate Business
 						<br /> Sales you own. System we manage.
 					</p>
