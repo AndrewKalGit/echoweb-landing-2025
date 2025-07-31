@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import Testimonials from './testimonials-section-landing';
 
-const buzzWords = ['Leads', 'Bookings', 'Growth'];
+const buzzWords = ['Leads', 'Bookings'];
 
 const Bannerlanding = () => {
 	const [index, setIndex] = useState(0);
@@ -39,13 +39,13 @@ const Bannerlanding = () => {
 						Less Stress
 					</h2>
 					<p className='mt-4 text-pretty text-gray-700 text-lg/relaxed xl:text-2xl/relaxed'>
-						Funnels that attract more leads. <br /> Sales you own. System we
-						manage.
+						We Engineer Lead Systems that Generate Business
+						<br /> Sales you own. System we manage.
 					</p>
 					<div className='mt-4 flex justify-center lg:justify-start gap-4 sm:mt-6'>
 						<a
 							className='inline-block rounded-md border bg-blue-500 px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-blue-500/90'
-							href='#'>
+							href='#booking'>
 							Build My Funnel
 						</a>
 					</div>
