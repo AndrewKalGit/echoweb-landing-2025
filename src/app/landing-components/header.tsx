@@ -90,13 +90,13 @@ const Header = () => {
 											About
 										</a>
 									</li>
-									<li>
+									{/* <li>
 										<a
 											className='text-gray-700 transition hover:text-gray-700/75'
 											href='#case-studies'>
 											Case Studies
 										</a>
-									</li>
+									</li> */}
 									<li>
 										<a
 											className='text-gray-700 transition hover:text-gray-700/75'
@@ -159,13 +159,13 @@ const Header = () => {
 										About
 									</a>
 								</li>
-								<li>
+								{/* <li>
 									<a
 										className='text-gray-700 transition hover:text-gray-700/75'
 										href='#case-studies'>
 										Case Studies
 									</a>
-								</li>
+								</li> */}
 								<li className='mb-4'>
 									<a
 										className='text-gray-700 transition hover:text-gray-700/75'

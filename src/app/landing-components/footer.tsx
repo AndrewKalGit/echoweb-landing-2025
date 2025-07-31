@@ -14,12 +14,23 @@ const Footer = () => {
 						<div>
 							<Image alt='echo web logo' src={logo} className='w-40' />
 						</div>
-
-						<p className='mt-4 max-w-xs text-gray-500'>
+						<p className='my-4 max-w-xs text-gray-500'>
 							Thank you for taking the time to look through our site. We are
 							always here to help you with your lead funnel.
 						</p>
-
+						{/* Contact Info */}
+						<div className='flex gap-6 mb-4'>
+							<a
+								href='tel:7325957217'
+								className='text-blue-500 hover:underline font-medium'>
+								(732) 595-7217
+							</a>
+							<a
+								href='mailto:contact@echoweb.design'
+								className='text-blue-500 hover:underline font-medium'>
+								contact@echoweb.design
+							</a>
+						</div>
 						<ul className='mt-8 flex gap-6'>
 							<li>
 								<a

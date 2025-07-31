@@ -14,10 +14,10 @@ export default function Home() {
 		<main>
 			<Header></Header>
 			<Banner></Banner>
+			<Testimonials></Testimonials>
 			<Services></Services>
 			<Aboutsectionlanding></Aboutsectionlanding>
 			<Casestudies></Casestudies>
-			<Testimonials></Testimonials>
 			<Booking></Booking>
 			<Leadform></Leadform>
 			<Contact></Contact>

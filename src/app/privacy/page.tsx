@@ -4,7 +4,7 @@ import Header from '../landing-components/header';
 const page = () => {
 	return (
 		<div>
-			<Header></Header>
+			<Header />
 			<h1 className='pt-32 flex justify-center text-5xl font-semibold'>
 				Privacy Policy
 			</h1>
@@ -63,20 +63,55 @@ const page = () => {
 					data. You can disable cookies in your browser settings if preferred.
 				</p>
 
-				<h2 className='text-xl font-semibold mt-6 mb-2'>5. Data Security</h2>
+				<h2 className='text-xl font-semibold mt-6 mb-2'>
+					5. Calendly Integration
+				</h2>
+				<p className='mb-4'>
+					We use Calendly to allow users to schedule meetings with us. When you
+					book a call, Calendly may collect personal information such as your
+					name and email address. Your data is handled in accordance with
+					Calendly’s{' '}
+					<a
+						href='https://calendly.com/privacy'
+						className='text-blue-600 underline hover:text-blue-800'
+						target='_blank'
+						rel='noopener noreferrer'>
+						Privacy Policy
+					</a>
+					.
+				</p>
+
+				<h2 className='text-xl font-semibold mt-6 mb-2'>
+					6. Apollo.io B2B Tracking
+				</h2>
+				<p className='mb-4'>
+					We use Apollo.io for B2B lead attribution and sales engagement
+					purposes. Apollo may collect business-related data, such as company
+					name and industry, based on your visit. Learn more in{' '}
+					<a
+						href='https://www.apollo.io/privacy-policy'
+						className='text-blue-600 underline hover:text-blue-800'
+						target='_blank'
+						rel='noopener noreferrer'>
+						Apollo.io’s Privacy Policy
+					</a>
+					.
+				</p>
+
+				<h2 className='text-xl font-semibold mt-6 mb-2'>7. Data Security</h2>
 				<p className='mb-4'>
 					We implement reasonable security measures to protect your data from
 					unauthorized access, disclosure, or misuse.
 				</p>
 
-				<h2 className='text-xl font-semibold mt-6 mb-2'>6. Your Rights</h2>
+				<h2 className='text-xl font-semibold mt-6 mb-2'>8. Your Rights</h2>
 				<p className='mb-4'>
 					You may request to access, update, or delete your personal data by
 					contacting us. We will respond within a reasonable timeframe.
 				</p>
 
 				<h2 className='text-xl font-semibold mt-6 mb-2'>
-					7. Third-Party Links
+					9. Third-Party Links
 				</h2>
 				<p className='mb-4'>
 					Our site may contain links to third-party websites. We are not
@@ -84,20 +119,25 @@ const page = () => {
 				</p>
 
 				<h2 className='text-xl font-semibold mt-6 mb-2'>
-					8. Updates to This Policy
+					10. Updates to This Policy
 				</h2>
 				<p className='mb-4'>
 					We may update this policy occasionally. Any changes will be posted
 					here with an updated revision date.
 				</p>
 
-				<h2 className='text-xl font-semibold mt-6 mb-2'>9. Contact</h2>
+				<h2 className='text-xl font-semibold mt-6 mb-2'>11. Contact</h2>
 				<p className='mb-4'>
-					For privacy-related questions or requests, contact us at
-					contact@echoweb.design.
+					For privacy-related questions or requests, contact us at{' '}
+					<a
+						href='mailto:contact@echoweb.design'
+						className='text-blue-600 underline hover:text-blue-800'>
+						contact@echoweb.design
+					</a>
+					.
 				</p>
 			</section>
-			<Footer></Footer>
+			<Footer />
 		</div>
 	);
 };

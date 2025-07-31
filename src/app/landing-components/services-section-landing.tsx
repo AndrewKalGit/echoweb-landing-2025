@@ -1,6 +1,6 @@
 const Services = () => {
 	return (
-		<section id='services' className='py-10 mb-10 bg-gray-50/25'>
+		<section id='services' className='py-10 mb-10'>
 			<div className='container mx-auto px-4 xl:px-20'>
 				<h1 className='flex justify-center py-2 text-4xl sm:text-5xl font-semibold text-gray-900'>
 					Services
