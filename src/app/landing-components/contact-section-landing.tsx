@@ -146,7 +146,7 @@ const Contact = () => {
 											? 'bg-blue-500 text-white'
 											: ''
 									}`}>
-									I need one
+									I need leads
 								</div>
 
 								<div
