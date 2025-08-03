@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import Testimonials from './testimonials-section-landing';
 
-const buzzWords = ['Leads', 'Bookings'];
+const buzzWords = ['Leads', 'Visibility'];
 
 const Bannerlanding = () => {
 	const [index, setIndex] = useState(0);
