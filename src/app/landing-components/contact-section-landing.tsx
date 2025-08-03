@@ -127,7 +127,7 @@ const Contact = () => {
 						{/* Selectable Options */}
 						<div>
 							<label className='font-semibold block text-sm text-gray-700 mb-2'>
-								What would you like to learn more about?*
+								Where are you with your lead generation*
 							</label>
 							<div className='flex gap-4'>
 								<input
@@ -141,12 +141,12 @@ const Contact = () => {
 									onClick={() =>
 										setSelectedOption('Are we the right fit for your business?')
 									}
-									className={`shadow border-gray-200 border-2 text-sm cursor-pointer flex-1 px-4 py-6 rounded-lg text-center font-medium transition ${
+									className={`shadow border-gray-200 border-2 text-xs cursor-pointer flex-1 rounded-lg text-center font-medium transition p-4 ${
 										selectedOption === 'Are we the right fit for your business?'
 											? 'bg-blue-500 text-white'
 											: ''
 									}`}>
-									Are We a Fit?
+									I need one
 								</div>
 
 								<div
@@ -155,13 +155,13 @@ const Contact = () => {
 											'How does your lead generation system work?'
 										)
 									}
-									className={`shadow border-gray-200 border-2  text-sm cursor-pointer flex-1 px-4 py-6 rounded-lg text-center font-medium transition ${
+									className={`shadow border-gray-200 border-2  text-xs cursor-pointer flex-1 rounded-lg text-center font-medium transition p-4 ${
 										selectedOption ===
 										'How does your lead generation system work?'
 											? 'bg-blue-500 text-white'
 											: ''
 									}`}>
-									Lead System Questions
+									It needs fixing
 								</div>
 							</div>
 						</div>
