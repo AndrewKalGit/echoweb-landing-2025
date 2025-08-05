@@ -60,7 +60,7 @@ export default function RootLayout({
 				<Script
 					id='gtm-script'
 					strategy='afterInteractive'
-					src='https://www.googletagmanager.com/gtm.js?id=GTM-MXKZNDFQ'
+					src='https://www.googletagmanager.com/gtm.js?id=GTM-5H74CL59'
 				/>
 				<Script id='gtm-init' strategy='afterInteractive'>{`
 					window.dataLayer = window.dataLayer || [];
@@ -94,7 +94,7 @@ export default function RootLayout({
 				{/* Google Tag Manager (noscript) */}
 				<noscript>
 					<iframe
-						src='https://www.googletagmanager.com/ns.html?id=GTM-MXKZNDFQ'
+						src='https://www.googletagmanager.com/ns.html?id=GTM-5H74CL59'
 						height='0'
 						width='0'
 						style={{ display: 'none', visibility: 'hidden' }}
