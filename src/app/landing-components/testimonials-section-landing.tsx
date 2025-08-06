@@ -29,10 +29,10 @@ const TestimonialGrid = () => {
 					Is This The Right Fit For You?
 				</h1>
 				<p className='text-lg text-gray-700 mb-6'>
-					We&apos;re ideal for businesses looking for a consistent flow of
-					leads. Whether you&apos;re in the B2B or B2C space, we specialize in
-					setting up multiple lead systems, from contact forms and lead magnets
-					to booking systems.
+					We&apos;re ideal for businesses who have a bottle neck in their lead
+					generation funnels. Whether you&apos;re in the B2B or B2C space, we
+					specialize in setting up multiple lead systems, from focused contact
+					forms and lead magnets to booking systems.
 				</p>
 			</div>
 			<div className='max-w-6xl mx-auto grid gap-12 sm:grid-cols-1 md:grid-cols-3'>

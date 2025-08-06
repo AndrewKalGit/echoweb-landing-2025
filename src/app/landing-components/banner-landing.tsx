@@ -39,8 +39,8 @@ const Bannerlanding = () => {
 						Less Stress
 					</h2>
 					<p className='mt-4 text-pretty text-gray-700 text-base/relaxed xl:text-2xl/relaxed'>
-						We Engineer Lead Systems that Generate Business
-						<br /> Sales you own. System we manage.
+						We Build Websites that Generate Leads.
+						<br /> Generate Leads with Systems we manage.
 					</p>
 					<div className='mt-4 flex justify-center lg:justify-start gap-4 sm:mt-6'>
 						<a
