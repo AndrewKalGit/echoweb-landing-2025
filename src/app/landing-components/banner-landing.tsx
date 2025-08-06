@@ -40,7 +40,7 @@ const Bannerlanding = () => {
 					</h2>
 					<p className='mt-4 text-pretty text-gray-700 text-base/relaxed xl:text-2xl/relaxed'>
 						We Build Websites that Generate Leads.
-						<br /> Generate Leads with Systems we manage.
+						<br /> Generate Leads with Systems Managed for you.
 					</p>
 					<div className='mt-4 flex justify-center lg:justify-start gap-4 sm:mt-6'>
 						<a
